@@ -3,5 +3,5 @@ on:
   push:
 jobs:
   call-workflow:
-     uses: ${{ secrets.CENTRAL_WORKFLOW }}@main
+     uses: saurabhD-org/.github/.github/workflows/workflow.yml@main
     
