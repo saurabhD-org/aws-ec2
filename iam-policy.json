@@ -1,0 +1,24 @@
+{
+  "Version" : "2012-10-17",
+  "Statement" : [
+    {
+      "Action" : [
+        "ec2:Describe*",
+        "s3:Get*",
+        "s3.List*",
+        "s3.Describe*"
+      ],
+      "Effect"   : "Allow",
+      "Resource" : "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+          "ds:DescribeDirectories",
+          "ds:CreateComputer",
+          "ds:DeleteComputer"
+      ],
+      "Resource": "*"
+  }
+  ]
+}
