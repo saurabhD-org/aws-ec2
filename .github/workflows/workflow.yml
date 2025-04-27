@@ -6,5 +6,5 @@ on:
 jobs:
   call-workflow:
      uses:
-      saurabhD-org/.github/blob/develop/.github/workflows/workflow.yml@develop
+      saurabhD-org/.github/.github/workflows/workflow.yml@develop
     
