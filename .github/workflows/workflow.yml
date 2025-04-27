@@ -1,0 +1,10 @@
+name: Call Common WorkFlow
+
+on:
+  push:
+
+jobs:
+  call-workflow:
+     uses:
+      saurabhD-org/.github/.github/workflows/workflow.yml@develop  
+    
