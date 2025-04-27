@@ -3,5 +3,5 @@ on:
   push:
 jobs:
   call-workflow:
-     uses: ${{ secrets.CENTRAL_WORKFLOW }}@main
+     uses: ${{ secrets.CENTRAL_WORKFLOW }@main
     
