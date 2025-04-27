@@ -2,7 +2,6 @@ name: Call Common WorkFlow
 
 on:
   push:
-#sample
 jobs:
   call-workflow:
      uses:
